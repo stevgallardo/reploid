@@ -1,5 +1,5 @@
-import { ArrowRight } from 'lucide-react'
-import { Button } from '@/components/ui/button'
+import { ArrowRight } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 export default function TerminosDeServicioPage() {
   return (
@@ -22,10 +22,12 @@ export default function TerminosDeServicioPage() {
             <p>
               Eres responsable de mantener la confidencialidad de tu cuenta y contraseña. Notifícanos inmediatamente si sospechas de cualquier uso no autorizado de tu cuenta.
             </p>
+
             <h2 className="text-2xl font-bold text-white">3. Propiedad Intelectual</h2>
             <p>
               Todo el contenido y software asociado con nuestros servicios está protegido por derechos de autor y otras leyes de propiedad intelectual.
             </p>
+
             <h2 className="text-2xl font-bold text-white">4. Limitación de Responsabilidad</h2>
             <p>
               No somos responsables de daños indirectos, incidentales, especiales, consecuentes o punitivos, o de cualquier pérdida de beneficios o ingresos.
@@ -39,6 +41,5 @@ export default function TerminosDeServicioPage() {
         </div>
       </div>
     </main>
-  )
-  }
-
+  );
+}
