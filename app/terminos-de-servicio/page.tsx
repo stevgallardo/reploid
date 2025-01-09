@@ -17,17 +17,14 @@ export default function TerminosDeServicioPage() {
             <p>
               Debes usar nuestros servicios de acuerdo con estos términos y todas las leyes aplicables. No puedes usar nuestros servicios para actividades ilegales o no autorizadas.
             </p>
-
             <h2 className="text-2xl font-bold text-white">2. Cuentas de Usuario</h2>
             <p>
               Eres responsable de mantener la confidencialidad de tu cuenta y contraseña. Notifícanos inmediatamente si sospechas de cualquier uso no autorizado de tu cuenta.
             </p>
-
             <h2 className="text-2xl font-bold text-white">3. Propiedad Intelectual</h2>
             <p>
               Todo el contenido y software asociado con nuestros servicios está protegido por derechos de autor y otras leyes de propiedad intelectual.
             </p>
-
             <h2 className="text-2xl font-bold text-white">4. Limitación de Responsabilidad</h2>
             <p>
               No somos responsables de daños indirectos, incidentales, especiales, consecuentes o punitivos, o de cualquier pérdida de beneficios o ingresos.
