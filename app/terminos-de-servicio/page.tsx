@@ -16,6 +16,7 @@ export default function TerminosDeServicioPage() {
             <h2 className="text-2xl font-bold text-white">1. Uso del Servicio</h2>
             <p>
               Debes usar nuestros servicios de acuerdo con estos términos y todas las leyes aplicables. No puedes usar nuestros servicios para actividades ilegales o no autorizadas.
+            </p>
 
             <h2 className="text-2xl font-bold text-white">2. Cuentas de Usuario</h2>
             <p>
@@ -39,5 +40,5 @@ export default function TerminosDeServicioPage() {
       </div>
     </main>
   )
-}
+  }
 
