@@ -1,7 +1,6 @@
 import { PixelBackground } from '@/components/PixelBackground'; // Import the background component
 import { Hero } from '@/components/hero';
 import { FreeConsultation } from '@/components/free-consultation';
-import { Operations } from '@/components/operations';
 import { Features } from '@/components/features';
 import { Testimonials } from '@/components/testimonials';
 import { Pricing } from '@/components/pricing';

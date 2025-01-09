@@ -1,41 +1,41 @@
-'use client'
+'use client';
 
-import { motion } from 'framer-motion'
-import { ArrowRight, Bot, Gauge, LineChart, Settings2, Target, Users } from 'lucide-react'
+import { motion } from 'framer-motion';
+import { Bot, Gauge, LineChart, Settings2, Target, Users } from 'lucide-react';
 
 export function Features() {
   const features = [
     {
       icon: Target,
       title: "Investigación de Mercado y Posicionamiento",
-      description: "Descubre tu ajuste perfecto al mercado y crea ofertas convincentes que convierten."
+      description: "Descubre tu ajuste perfecto al mercado y crea ofertas convincentes que convierten.",
     },
     {
       icon: Bot,
       title: "Sistemas de Automatización",
-      description: "Construye sistemas escalables que trabajan 24/7 para generar y nutrir leads."
+      description: "Construye sistemas escalables que trabajan 24/7 para generar y nutrir leads.",
     },
     {
       icon: Users,
       title: "Construcción de Equipos",
-      description: "Contrata y entrena a las personas adecuadas para apoyar tu negocio en crecimiento."
+      description: "Contrata y entrena a las personas adecuadas para apoyar tu negocio en crecimiento.",
     },
     {
       icon: LineChart,
       title: "Estrategia de Crecimiento",
-      description: "Desarrolla y ejecuta estrategias basadas en datos para un crecimiento sostenible."
+      description: "Desarrolla y ejecuta estrategias basadas en datos para un crecimiento sostenible.",
     },
     {
       icon: Settings2,
       title: "Optimización de Procesos",
-      description: "Optimiza tus operaciones para máxima eficiencia y rentabilidad."
+      description: "Optimiza tus operaciones para máxima eficiencia y rentabilidad.",
     },
     {
       icon: Gauge,
       title: "Seguimiento de Rendimiento",
-      description: "Monitorea y optimiza tus métricas clave para un éxito continuo."
-    }
-  ]
+      description: "Monitorea y optimiza tus métricas clave para un éxito continuo.",
+    },
+  ];
 
   return (
     <motion.section
@@ -45,7 +45,6 @@ export function Features() {
       transition={{ duration: 0.8, ease: 'easeOut' }}
     >
       <div className="container px-4 sm:px-6 lg:px-8">
-        {/* Small Blue Text */}
         <motion.div
           className="text-center mb-4"
           initial={{ opacity: 0 }}
@@ -53,11 +52,10 @@ export function Features() {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <p className="text-teal-400 font-semibold uppercase tracking-wide">
-          características
+            Características
           </p>
         </motion.div>
 
-        {/* Title Section */}
         <motion.div
           className="text-center mb-12"
           initial={{ opacity: 0, scale: 0.9 }}
@@ -68,11 +66,10 @@ export function Features() {
             Una mejor manera de optimizar operaciones impulsadas por IA
           </h2>
           <p className="mt-4 text-xl text-white/80 max-w-2xl mx-auto">
-          Transformamos tu negocio con soluciones de IA personalizadas y escalables.
+            Transformamos tu negocio con soluciones de IA personalizadas y escalables.
           </p>
         </motion.div>
 
-        {/* Grid of Features */}
         <motion.div
           className="grid gap-4 md:grid-cols-2 lg:grid-cols-3"
           initial="hidden"
@@ -110,5 +107,5 @@ export function Features() {
         </motion.div>
       </div>
     </motion.section>
-  )
+  );
 }
